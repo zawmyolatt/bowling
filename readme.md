@@ -1,11 +1,11 @@
-<p align="center"><img src="https://proxsoftwaresolution.com/uploads/images/game.jpg"></p>
-
 # Bowling Game Challenge
+
+<p align="center"><img src="https://proxsoftwaresolution.com/uploads/images/game.jpg"></p>
 
 ## Requirements
 
 - PHP 7.1 is installed. 
-- For safety, PHP 7.1.13 or above , since that is the version requirement of Laravel 5.6
+- For safety, PHP 7.1.13 or above , since that is the requirement of Laravel 5.6
 - Make sure composer is installed and run `composer install` in project directory
 
 ## Example Commands
@@ -16,15 +16,14 @@ php artisan bowling:play "[[10],[10],[10],[10],[10],[10],[10],[10],[10],[10,10,1
 php artisan bowling:play "[[1,1],[1,1],[1,1],[1,1],[1,1],[1,1],[1,1],[1,1],[1,1],[1,1]]"
 
 php artisan bowling:play -h
-
 ```
 
 ## Running the tests
 
 ```
-phpunit
+vendor/bin/phpunit
 
-phpunit --testdox
+vendor/bin/phpunit --testdox
 ```
 
 **Example Frames**
